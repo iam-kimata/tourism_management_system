@@ -1,0 +1,312 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #2c68d0;
+    padding: 10px 100px;
+    width: 100%;
+    min-height: 60px; 
+    position: fixed; 
+    z-index: 1000;
+}  
+
+.navbar .logo img {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+
+.navbar h3 {
+    font-size: 25px;
+    padding-right: 1000px;
+    color: #FFF;
+}
+
+.navbar ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 0 20px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #FFF;
+    position: relative;
+}
+
+.navbar ul li a::after {
+    content: '';
+    width: 0;
+    height: 2px;
+    background: black;
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    transition: 0.5s;
+}
+
+.navbar ul li a:hover::after {
+    width: 100%;
+}
+
+    /*============ Home Section Styling ===============*/
+.home {
+    background-image: url(images/about.jpeg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.home-text {
+    max-width: 1459px;
+    padding-top: 345px;
+    text-align: center;
+    color: #FFF;
+}
+
+.home-text .text-1 {
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.home-text .text-2 {
+    text-transform: capitalize; 
+}
+
+    /*============ About Section Styling ===============*/
+.about {
+    padding: 15% 10% 5%;
+    height: 100vh;
+}
+
+.about .row {
+    display: flex;
+    justify-content: space-between;  
+}
+
+.about .row .about-col-1 {
+    flex-basis: 35%;
+}
+
+.about .row .about-col-1 img { 
+    width: 450px;
+    height: 480px; 
+    border-radius: 10px;
+    margin-top: -10px;
+}
+
+.about .row .about-col-2 {
+    flex-basis: 50%;
+}
+
+.about .row .about-col-2 p {
+    text-align: justify;
+    line-height: 1.5;
+    margin-top: -10px;
+    margin-bottom: 18px;
+}
+
+.about .row .about-col-2 ul {
+    padding-left: 40px;
+}
+
+.about .row .about-col-2 ul li {
+    text-align: justify;
+    margin-bottom: 5px;
+}
+
+.about-btn {
+    padding-top: 40px;
+}
+
+.btn {
+    background: black;
+    color: #FFF;
+    font-size: 16px;
+    text-decoration: none;
+    outline: none;
+    padding: 12px;
+    border-radius: 5px;
+    margin: 0 20px;
+    cursor: pointer;
+}
+
+    /*============ Sign up Section Styling ===============*/
+.sign-up {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    width: 100%;
+    max-width: 600px;
+    padding: 15px;
+    margin-top: 320px;
+}
+
+.form-title {
+    font-size: 25px;
+    font-weight: 500;
+    text-align: center;
+    padding-bottom: 6px;
+    color: black;
+    border-bottom: 2px solid black;
+}
+    
+.main-user-info {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+    
+.user-input-box {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-bottom: 8px;
+}
+    
+.user-input-box label {
+    color: black;
+    font-size: 15px;
+    font-weight: 300;
+    margin: 5px 0;
+} 
+
+.user-input-box .red-text {
+    font-size: 12px;
+    color: red;  
+}
+
+.user-input-box input, select {
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-submit-btn input {
+    display: block;
+    width: 100%;
+    font-size: 18px;
+    padding: 8px;
+    border: none;
+    border-radius: 8px;
+    color: black;
+    cursor: pointer;  
+}
+
+.login-link {
+    text-align: center;
+    font-size: 15px;
+    color: black;
+}
+
+.login-link a {
+    color: black;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+    /*============ Login Form Styling ===============*/
+.login-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.wrapper-2 {
+    width: 100%;
+    max-width: 420px;
+    color: black;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 40px 50px;
+    margin-top: 60px;
+}
+
+.wrapper-2 h1 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.wrapper-2 .input-box {
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+    position: relative;
+}
+
+.input-box input {
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    border: 2px solid #aaa;
+    border-radius: 10px;
+    font-size: 16px;
+    color: black;
+    padding: 20px 45px 20px 20px;
+}
+
+.input-box i {
+    right: 20px;
+    top: 50%;
+    position: absolute;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+
+.btn-2 {
+    width: 100%;
+    height: 45px;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.register-link {
+    text-align: center;
+    font-size: 14px;
+    color: black;
+    padding-top: 15px;
+}
+
+.register-link a {
+    color: black;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+    /*============ Footer Section Styling ===============*/
+.footer {
+    background: whitesmoke;
+    color: black;
+    width: 100%;
+    padding: 23px 0;
+    text-align: center;
+    font-size: 15px;
+}
+
+
+
+
