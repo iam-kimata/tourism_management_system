@@ -18,12 +18,18 @@ $query = mysqli_query($conn, $sql);
 <html lang="en">
 <title>Dashboard</title>
 
-<?php include('shared-2/company.html'); ?>
+<?php include('shared-2/company_sidebar.html'); ?>
 
     <main>
         <div class="page-header">
             <h1>Dashboard</h1>
             <small>Approved / Dashboard</small>
+        </div>
+        <div class="browse">
+            <form action="#" method="POST">
+                <input type="search" name="search" placeholder="Search" class="record-search">
+                <button type="search"></button>
+            </form>
         </div>
         <div class="page-content">
             <?php

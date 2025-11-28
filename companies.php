@@ -37,7 +37,7 @@ if (isset($_POST['search'])) {
 <html lang="en">
 <title>Dashboard</title>
 
-<?php include('shared-2/admin.html'); ?>
+<?php include('shared-2/admin_sidebar.html'); ?>
 
 <body>
     <main>

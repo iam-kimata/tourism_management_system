@@ -40,7 +40,7 @@ if(isset($_GET['company_user_id'])) {
 <html lang="en">
 <title>Dashboard</title>
 
-<?php include('shared-2/tourist.html'); ?>
+<?php include('shared-2/tourist_sidebar.html'); ?>
 
 <main>
     <div class="page-header">

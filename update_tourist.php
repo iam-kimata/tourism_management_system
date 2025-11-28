@@ -27,7 +27,7 @@ if(isset($_POST["submit"])){
 <html lang="en">
 <title>Dashboard</title>
 
-<?php include('shared-2/admin.html'); ?>
+<?php include('shared-2/admin_sidebar.html'); ?>
 
     <main>
         <div class="page-header">

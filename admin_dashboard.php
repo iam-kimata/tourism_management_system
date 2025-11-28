@@ -47,7 +47,7 @@ if (isset($_POST['search'])) {
 <html lang="en">
 <title>Dashboard</title>
 
-<?php include('shared-2/admin.html'); ?>
+<?php include('shared-2/admin_sidebar.html'); ?>
 
 <main>
     <div class="page-header">
@@ -135,10 +135,7 @@ if (isset($_POST['search'])) {
 
         <div class="records table-responsive">
             <div class="record-header">
-                <div class="add">
-                    <button>Available Bookings</button>
-                </div>
-
+                <h3>Available Bookings</h3>
                 <div class="browse">
                     <form action="admin_dashboard.php" method="POST">
                         <input type="search" name="search" placeholder="Search" class="record-search">

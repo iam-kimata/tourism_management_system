@@ -50,7 +50,7 @@ if (isset($_SESSION['success_message'])) {
 <html lang="en">
 <title>Dashboard</title>
 
-<?php include('shared-2/company.html'); ?>
+<?php include('shared-2/company_sidebar.html'); ?>
 
 <main>
     <div class="page-header">

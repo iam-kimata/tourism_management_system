@@ -52,7 +52,7 @@ if(isset($_GET['attraction_id']) && isset($_GET['company_user_id'])) {
      
    </style>
 
-<?php include('shared-2/tourist.html'); ?>
+<?php include('shared-2/tourist_sidebar.html'); ?>
 
 <main>
     <div class="page-header">

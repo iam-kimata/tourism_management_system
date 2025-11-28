@@ -25,12 +25,6 @@
     border-radius: 50%;
 }
 
-.navbar h3 {
-    font-size: 25px;
-    padding-right: 1000px;
-    color: #FFF;
-}
-
 .navbar ul li {
     display: inline-block;
     list-style: none;
@@ -68,7 +62,7 @@
 }
 
 .home-text {
-    max-width: 1459px;
+    max-width: 1450px;
     padding-top: 345px;
     text-align: center;
     color: #FFF;
@@ -124,22 +118,6 @@
 .about .row .about-col-2 ul li {
     text-align: justify;
     margin-bottom: 5px;
-}
-
-.about-btn {
-    padding-top: 40px;
-}
-
-.btn {
-    background: black;
-    color: #FFF;
-    font-size: 16px;
-    text-decoration: none;
-    outline: none;
-    padding: 12px;
-    border-radius: 5px;
-    margin: 0 20px;
-    cursor: pointer;
 }
 
     /*============ Sign up Section Styling ===============*/
